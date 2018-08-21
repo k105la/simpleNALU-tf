@@ -71,7 +71,7 @@ optimizer = tf.train.AdamOptimizer(LEARNING_RATE).minimize(loss)
 # create session
 sess = tf.Session()
 # create writer to store tensorboard graph   
-writer = tf.summary.FileWriter('/tmp', sess.graph)
+writer = tf.summary.FileWriter('tmp', sess.graph)
 
 summaries = tf.summary.merge_all()
 saver = tf.train.Saver() # Add ops to save and restore all the variables.

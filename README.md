@@ -1,6 +1,7 @@
 # simpleNALU-tf
 
 This is a simple implementation of DeepMinds Neural Arithmetic Logic Units (NALU) paper in TensorFlow.
+https://arxiv.org/abs/1808.00508
 
 ## Installation
 
